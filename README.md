@@ -1,2 +1,3 @@
 # Notifications-web page
-Notifications page of a web application
+Notifications page of a web application 
+instant notification
