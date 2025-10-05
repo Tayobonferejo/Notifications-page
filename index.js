@@ -10,8 +10,10 @@ userForm.addEventListener("submit" , function(event){
     let submissions = JSON.parse(localStorage.getItem("submissions")) || [];
 
     submissions.push({notify});
+    userForm.reset();
 
     window.location.href="notify.html";
+
 
     // save back to localStorage
 
