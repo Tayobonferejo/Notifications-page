@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
-div {
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7rem 0;
+}
+#display {
     width: 60%;
     margin: auto;
 }
