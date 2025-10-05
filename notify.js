@@ -17,12 +17,16 @@ window.addEventListener("DOMContentLoaded", function() {
         p.style.cursor = "pointer";          // makes it look clickable
         p.style.background = "#f0f0f0";
         p.style.padding = "8px";
-        p.style.borderRadius = "6px";
+        p.style.borderRadius = "2px";
         p.style.marginBottom = "8px";
 
         // when clicked
         p.addEventListener("click", function() {
-            alert("You clicked: " + item.notify);
+            // alert("You clicked: " + item.notify);
+
+            p.style.background = "#943636ff";
+            p.style.color = "#ffffffff";
+
             // or you can redirect or do something else here
             // e.g. window.location.href = "details.html?msg=" + encodeURIComponent(item.notify);
         });
